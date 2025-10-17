@@ -1,0 +1,20 @@
+body{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar ul{
+    background-color: rgba(81, 86, 158, 0.301);
+}
+.navbar a{
+    text-decoration: none;
+    color:rgb(4, 138, 138);
+    display: block;
+    float: left;
+}

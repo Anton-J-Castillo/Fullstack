@@ -1,0 +1,16 @@
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 100%, 62%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideRight;
+    animation-duration: 2s;
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(100px)}
+}
+@keyframes slideRight{
+    to{transform: translateX(300px)}
+}

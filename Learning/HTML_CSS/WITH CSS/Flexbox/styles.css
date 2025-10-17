@@ -1,0 +1,36 @@
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+#box1{
+    background-color: hsl(0, 100%, 70%);     
+}
+#box2{
+    background-color: hsl(52, 100%, 70%);
+}
+#box3{
+    background-color: hsl(111, 100%, 70%);
+}
+#box4{
+    background-color: hsl(201, 100%, 70%);
+}
+#box5{
+    background-color: hsl(0, 100%, 70%);
+}
+#box6{
+    background-color: hsl(52, 100%, 70%);
+}
+#box7{
+    background-color: hsl(111, 100%, 70%);
+}
+#box8{
+    background-color: hsl(201, 100%, 70%);
+}
