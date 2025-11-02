@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#ticketForm{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#ticketForm button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

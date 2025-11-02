@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #667eea;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.wrong-guesses {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+#hangman-drawing {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    min-height: 200px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    white-space: pre;
+    line-height: 1.4;
+}
+
+#word-display {
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.key {
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    background: #667eea;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.key:hover:not(:disabled) {
+    background: #764ba2;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.key:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+    color: #999;
+}
+
+#message {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    min-height: 40px;
+    font-weight: bold;
+}
+
+.win {
+    color: #27ae60;
+}
+
+.lose {
+    color: #e74c3c;
+}
+
+#new-game-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+#new-game-btn:hover {
+    background: #229954;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
+}

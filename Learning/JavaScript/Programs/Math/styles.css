@@ -1,0 +1,15 @@
+#title{
+    display: block;
+    text-align: center;
+}
+
+#input{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container{
+    text-align: center;
+    background-color: lightblue;
+    height: 50px;
+}

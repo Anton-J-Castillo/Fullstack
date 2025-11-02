@@ -1,26 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Resume</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-    <body>
-        <header>
-            <h1>Resume</h1>
-            <h2>Anton Jared Castillo</h2>
-        </header>
-        <main>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Education">Education</a></li>
-                </ul>
-            </nav>
-        </main>
-    </body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Anton Jared Castillo</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/A ton-J-Castillo" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="antonjaredcastillo@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Anton 👋</h2>
+        <p>I am a currently a highschool student who is in his Junior year. I love to play games and code, and I love solving math and physics problems. I currently have 2 published games with over 1000 total players gained. I love to teach and tutor people, especially in subjects like computer science, physics, and math.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#current-projects">
+            <i class="fa-solid fa-pen"></i>
+            <span>Current Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/main.jpg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        <p>I have been programming for about 3 years. Most of my projects have been roblox game development with Lua. I have learned several other languages as shown below.</p>
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/cpp.png" alt="c++ logo">
+          <span>C++</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/python.png" alt="python logo">
+          <span>Python</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/lua.png" alt="lua logo">
+          <span>Lua</span>
+        </div>
+     
+        <div class="cell">
+          <img src="images/cs.png" alt="c# logo">
+          <span>C#</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/html.png" alt="html logo">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/css-3.png" alt="css logo">
+          <span>CSS</span>
+        </div>
+    
+        <div class="cell">
+          <img src="images/js.png" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: Current Projects -->
+    <section id="current-projects" class="current-projects-section">
+      <h2>Current Projects</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/main.jpg">
+          <p>Anton Jared Castillo</p>
+          <p>Current Project: E-Learning Website</p>
+        </div>
+
+        <div class="text">
+          <p>I am currently working on an E-Learning website to provide free courses and lessons for people who don't have access to easy education. I am currently aiming for 3+ courses and 100+ videos in total by end of winter break. I am looking for other tutors to help me create video lessons so that I can push my website out faster.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat fugit maiores atque architecto saepe tenetur quasi reiciendis illum sint doloremque alias inventore, asperiores maxime pariatur totam hic assumenda repudiandae, iusto quisquam nisi! Eaque doloremque perspiciatis minus voluptate dicta. A ratione autem dolor iure libero numquam voluptatem nobis laborum et corporis.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
