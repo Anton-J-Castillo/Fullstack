@@ -7,7 +7,9 @@ const words = {
     superheroes: ['superman', 'batman', 'spiderman', 'wonderwoman', 'ironman', 'hulk'],
     "car brands": ['toyota', 'ford', 'chevrolet', 'honda', 'bmw', 'mercedes'],
     "video games": ['minecraft', 'fortnite', 'overwatch', 'tetris', 'doom', 'zelda'],
-    "roblox games": ['adoptme', 'brookhaven', 'jailbreak', 'murdermystery', 'meepcity', 'royalhigh']
+    "roblox games": ['adoptme', 'brookhaven', 'jailbreak', 'murdermystery', 'meepcity', 'royalhigh'],
+    stores: ['walmart', 'target', 'costco', 'ikea', 'sears', 'bestbuy'], 
+    "long words": ['Pneumonoultramicroscopicsilicovolcanoconiosis ', 'Hippopotomonstrosesquipedaliophobia', 'Supercalifragilisticexpialidocious', 'Pseudopseudohypoparathyroidism'],
 };
 
 const hangmanStages = [
